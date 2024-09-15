@@ -33,6 +33,7 @@
 #ifdef RGBLIGHT_ENABLE
 #    ifndef RGBLIGHT_LIMIT_VAL
 #        define RGBLIGHT_LIMIT_VAL 120
+#        define RGBLIGHT_SLEEP
 #    endif
 #endif
 
@@ -47,3 +48,5 @@
         #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
     #endif
 #endif
+
+#define RGBLIGHT_LAYERS
